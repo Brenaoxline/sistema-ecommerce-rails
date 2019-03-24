@@ -14,10 +14,10 @@
     <% @departamentos.each do |departamento| %>
       <tr>
         <td><%= departamento.nome %></td>
-        <td><%= link_to 'Ver produtos', departamento, class:"btn btn-default" %></td>
+        <td><%= link_to 'Ver produtos', departamento, class:"btn btn-info" %></td>
         <td><%= link_to 'Editar', edit_departamento_path(departamento), class:"btn btn-default" %></td>
-        <td><%= link_to 'Deletar', departamento, method: :delete, data: { confirm: 'Tem certeza que deseja deletar?' },
-         class:"btn btn-default"%></td>
+        <td><%= link_to 'Deletar', departamento, method: :delete, class:"btn btn-danger",
+        data: { confirm: 'Tem certeza que deseja deletar este departamento?' }%></td>
       </tr>
     <% end %>
   </tbody>
