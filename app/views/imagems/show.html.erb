@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <%= image_tag(@imagem.imagem_url, height: 400) if @imagem.imagem.present? %>
+</p>
+
+<%= link_to 'Atualizar', edit_imagem_path(@imagem), class:"btn btn-default" %> 
+<%= link_to 'Voltar', imagems_path, class:"btn btn-default" %>
