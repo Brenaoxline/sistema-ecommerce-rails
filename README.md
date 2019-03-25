@@ -1,24 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Esse é meu sistema ecommerce feito com base no curso da Alura de Ruby on Rails.
+Aprendi Ruby com o curso de Ruby Puro da OneBitCode.
+É meu projeto de site dinâmico do processo trainee da Acens.
